@@ -1,0 +1,417 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;  
+	
+	
+}
+
+body{
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+}
+.inner{
+	width:100%
+}
+
+.head{
+	height:100vh;
+	position:relative;
+}
+
+.head-services{
+	height:488px;
+	width:100%;
+	position:relative;
+}
+
+.background{
+	position:absolute;
+	height:100%;
+	width:100%;
+	overflow:hidden;
+  text-align: center;
+}
+.background img{
+	position: relative;
+	height: 100%;
+	width: auto;
+	left: 100%;
+	margin-left: -200%;
+	
+}
+.description{
+	position:absolute;
+	display:table;
+	width:100%;
+	height:100%;
+}
+.description-content {
+	display:table-cell;
+	vertical-align:middle;
+	
+	}
+	
+.description-cont{
+	width:40%;
+	margin-left:30%;
+	margin-right:30%;
+}
+.description h3{
+	text-align:center;
+	text-transform:uppercase;
+	color:white;
+	font-size:39pt;
+}
+
+.description p{
+	font-size:15pt;
+	color:white;
+}
+
+.img-services{
+	
+}
+
+.logo{
+	
+	width:65px;
+	height:69px;
+	top:70px;
+	margin:0 auto;
+}
+
+.logo img{
+	width:100%;
+	height:100%;
+}
+
+.about{
+	position:relative;
+}
+.about p{
+	font-size:16pt;
+	padding:15px;
+}
+
+.about h2{
+	font-size:32pt;
+}
+.about-content{
+	padding:25px;
+	text-align:center;
+	width:600px;
+	margin:0 auto;
+}
+
+
+.services{
+	position: relative;
+}
+
+.services p{
+	font-size:16pt;
+	padding:15px;
+	color:white;
+}
+
+.services h2{
+	font-size:32pt;
+
+}
+
+.about-services{
+	position:relative;
+	
+	text-align:center;
+	width:600px;
+	margin:0 auto;
+	top: 150px;
+	
+}
+
+.about-services
+{
+	color:white;
+}
+
+.about-us
+{
+	position:relative;
+	width:100%;	
+}
+.about-us h1
+{
+	text-align:center;
+	font-size:36pt;
+	text-transform:uppercase;
+	margin-top:75px;
+}
+
+.design{
+	margin-top:100px;
+}
+.design h2
+{
+	text-align:center;
+	font-size:32pt;
+}
+
+.content
+{
+	height:323px;
+	width:552px;
+	margin:0 auto;
+}
+
+.content p
+{
+	font-size:16pt;
+	padding:15px;
+}
+
+.design-logo
+{
+	position:relative;
+	height:84px;
+	width:83px;
+	margin:0 auto;
+}
+
+.design-logo img
+{
+	height:100%;
+	width:100%;
+}
+
+.development
+{
+	position:relative;
+}
+
+.development h2
+{
+	text-align:center;
+	font-size:32pt;
+}
+
+.development-logo
+{
+	position:relative;
+	height:79px;
+	width:76px;
+	margin:0 auto;
+}
+
+.development-logo img
+{
+	height:100%;
+	width:100%;
+}
+
+.product-management{
+	position:relative;
+}
+.product-management-logo
+{
+	position:relative;
+	height:79px;
+	width:76px;
+	margin:0 auto;
+}
+
+.product-management-logo img
+{
+	height:100%;
+	width:100%;
+}
+.product-management h2
+{
+	text-align:center;
+	font-size:32pt;
+}
+
+.contact-us{
+	position:relative;
+}
+.content2
+{
+	text-align:center;
+	position:relative;
+	height:245px;
+	width:552px;
+	margin:0 auto;
+}
+
+.content2 p
+{
+	padding:15px;
+	font-size:16pt;
+}
+
+.contact-us h2
+{
+	margin-top:50px;
+	text-align:center;
+	font-size:32pt;
+}
+
+.contact-button-a
+{
+	padding:15px;
+	color:#fff;
+}
+
+.footer
+{
+	height:90px;
+}
+
+.chubanskiq-div
+{
+	margin:62px;
+	text-align: center;
+}
+
+.chubanskiq-div img
+{
+	vertical-align:middle;
+}
+
+.span-class
+{
+	padding: 30px;
+	text-align:center;
+}
+
+.contact-button
+{
+	position:relative;
+	top:30px;
+	text-decoration:none;
+	color:#fff;
+	padding: 15px 50px 15px 50px;
+	text-align:center;
+	background-color:#3c3c3c;
+	border: 1px solid #3c3c3c;
+	transition: 0.3s ease-out all;
+}
+
+.contact-button:hover
+{
+	background-color:white;
+	color:#3c3c3c;
+	border:1px solid #3c3c3c;
+	
+}
+
+
+.30
+{
+	margin-bottom:30px;
+}
+
+.image-25
+{
+	position:relative;
+	height:237px;
+	width:25%;
+	overflow:hidden;
+}
+
+.image-25 img, .image-50 img
+{
+	position:absolute;
+	min-width:100%;
+	min-height:100%;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	
+	
+
+}
+
+.image-50
+{
+	position:relative;
+	height:237px;
+	width:49%;
+	overflow:hidden;
+}
+
+.inline
+{
+	display:inline-block;
+	margin:0;
+	padding:0;
+}
+.element_container {
+	position: relative;
+}
+.element
+{
+	position:absolute;
+	display:block;
+	width:100%;
+	height:100%;
+}
+
+.element img
+{
+	
+}
+
+.element__hover {
+	position:absolute;
+	display:block;
+	width:100%;
+	height:100%;
+	color:#fff;
+	opacity:0;
+	background:#000;
+	transition: 0.3s all ease-out;
+}
+
+.element__hover50 {
+	position:absolute;
+	display:block;
+	width:100%;
+	height:100%;
+	color:#fff;
+	opacity:0;
+	background:#000;
+	transition: 0.3s all ease-out;
+}
+
+.element__hover p{
+	position:absolute;
+	color: #fff;
+	width:100%;
+	text-align:center;
+	top: 50%;
+	font-size:14pt;
+	text-transform: uppercase;
+	
+}
+
+
+
+
+
+.element_container:hover .element__hover, .element_container:hover .element__hover50
+{
+	opacity: 0.7;
+}
+
+@media screen and (max-width: 650px)
+{
+	.image-25
+	{
+		width:100%;
+	}
+	.image-50
+	{
+		width: 100%;
+	}
+}
